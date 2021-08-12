@@ -1,16 +1,15 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import { Footer } from './components/Footer/Footer';
+import { Header } from './components/Header/Header';
+import { Produtos } from './components/Produtos/Produtos';
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-      
-          Learn React
-      
-      </header>
+      <Header/>
+      <Produtos/>
+      <Footer/>
     </div>
-  );
+  )
 }
-
-export default App;
