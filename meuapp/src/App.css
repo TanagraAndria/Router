@@ -1,6 +1,13 @@
-body {
-  margin: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* 
+body {
+  margin: 1rem;
+} */
 
 img {
   max-width: 100%;
@@ -16,10 +23,10 @@ h1 {
   font-size: 1.4rem;
 }
 
-.App {
+.section{
   display: flex;
   flex-direction: column;
-  max-width: 40rem;
+   max-width: 40rem; 
   margin: 0 auto;
   min-height: calc(100vh + 10rem);
 }

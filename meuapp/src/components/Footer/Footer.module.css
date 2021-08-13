@@ -1,0 +1,17 @@
+.footer{
+    background: linear-gradient(270deg, rgb(223, 224, 228) 20%, rgba(255,255,255,1) 100%);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.imgFooter{
+    padding: 0.2rem;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+.imgFooter :hover{
+    background-color: yellow;
+}
